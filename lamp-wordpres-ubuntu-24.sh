@@ -17,7 +17,7 @@ sudo -i
 cat << EOF | tee /root/.my.cnf
 [client]
 user=root
-password=D@rkL0rdS1th
+password=DB_Password
 EOF
 mysql -e "GRANT ALL PRIVILEGES ON *.* TO root@localhost WITH GRANT OPTION;"
 mysql -e "CREATE DATABASE wordpress;"
